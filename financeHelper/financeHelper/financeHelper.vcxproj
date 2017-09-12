@@ -112,6 +112,7 @@
   <ItemGroup>
     <ClCompile Include="category.cpp" />
     <ClCompile Include="infoPrint.cpp" />
+    <ClCompile Include="Initial.cpp" />
     <ClCompile Include="logger.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="mainFile.cpp" />
@@ -119,6 +120,7 @@
   <ItemGroup>
     <ClInclude Include="category.h" />
     <ClInclude Include="infoPrint.h" />
+    <ClInclude Include="initial.h" />
     <ClInclude Include="logger.h" />
     <ClInclude Include="mainFile.h" />
   </ItemGroup>

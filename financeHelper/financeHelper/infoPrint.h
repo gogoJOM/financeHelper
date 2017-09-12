@@ -3,20 +3,16 @@
 #include <iostream>
 #include "mainFile.h"
 
+enum infoType {
+	INTRO,
+	CATEGORY,
+	EINPUT,
+	ECONTINUE, 
+	RES
+};
+
 class CInfoPrint {
 
 public:
-	virtual void write (std::string a_info) = 0;
-};
-
-class CIntroInfoPrint : public CInfoPrint {
-
-public:
-	virtual void write(std::string a_info);
-};
-
-class CResInfoPrint : public CInfoPrint {
-
-public:
-	virtual void write(std::string a_info);
+	static void write(infoType a_info);
 };
