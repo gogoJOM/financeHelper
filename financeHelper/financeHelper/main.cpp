@@ -11,9 +11,9 @@ int main(int argc, char** argv)
 	Start();
 	//CIntroInfoPrint introInfo;
 	//introInfo.write("");
-	//CFileLogger fLog;
-	//fLog.printDebug(" ");
+	CFileLogger fLog;
+	fLog.printDebug(" ");
 	//std::cout << "test" << std::endl;
-	while (1);
+	//while (1);
 	return 0;
 }
