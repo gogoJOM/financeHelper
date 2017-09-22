@@ -8,7 +8,8 @@ enum infoType {
 	CATEGORY,
 	EINPUT,
 	ECONTINUE, 
-	RES
+	RES,
+	HELP
 };
 
 class CInfoPrint {
